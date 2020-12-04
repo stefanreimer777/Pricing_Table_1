@@ -1,0 +1,99 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #aaf0d1;
+}
+
+h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.header {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+table {
+  width: 900px;
+  height: 400px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+.price {
+  color: #aaf0d1;
+  font-size: 60px;
+  /* margin-bottom: 20px; */
+  padding-bottom: 10px;
+}
+.month {
+  color: lightgray;
+  margin-bottom: 50px;
+}
+
+.text {
+  color: lightgray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 20px;
+  margin-top: auto;
+}
+
+td > div {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+td,
+th {
+  border-left: 15px solid #aaf0d1;
+  text-align: center;
+  padding: 8px;
+}
+
+.button {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #aaf0d1;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  /* margin: auto; */
+  margin-bottom: 20px;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.button:hover {
+  background-color: #58eca5;
+}
+.button:active {
+  background-color: #58eca5;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
